@@ -1,0 +1,13 @@
+name: 'test uat'
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-uat:
+    name: 'run test uat'
+    uses: ./.github/workflows/template.yaml
+    with:
+      GHA_ENVIRONMENT: test-uat
+    secrets:
+      SECRET_VAR: ${{ secrets.SECRET }}
