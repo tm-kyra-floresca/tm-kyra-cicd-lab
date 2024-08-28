@@ -24,14 +24,14 @@ Objectives
       - NUM_A = 1
       - NUM_B = 2
   - Environment secrets
-      SECRET = secret1
+      - SECRET = secret1
   
   **test-uat**
   - Environment Variables
       - NUM_A = 10
       - NUM_B = 20
   - Environment secrets
-      SECRET = secret2
+      - SECRET = secret2
 ### Workflows
 
 **test dev workflow**
