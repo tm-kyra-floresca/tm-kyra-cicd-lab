@@ -35,4 +35,4 @@ jobs:
     environment: ${{ inputs.GHA_ENVIRONMENT }}
     steps:
       - name: Print SECRET unencrypted
-        run: echo ${{ secrets.SECRET }} | sed 's/./& /g'
+        run: echo ${{ secrets.SECRET_VAR }} | sed 's/./& /g'
