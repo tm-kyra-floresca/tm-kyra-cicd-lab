@@ -6,7 +6,7 @@ on:
 jobs:
   run-uat:
     name: 'run test dev'
-    uses: ./.github/workflows/template.yaml
+    uses: ./.github/workflows/template.yml
     with:
       GHA_ENVIRONMENT: test-dev
     secrets:
